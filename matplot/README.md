@@ -10,3 +10,5 @@ python画图笔记
     - x = [0, 100],y = [0, 200],z = [0, 300]#给出点（0，0，0）和（100，200，300）
     - ax.plot (x,y,'red',alpha=1)#二维
     - ax.plot (x,y,z,'red',alpha=1)#三维
+### 画箭头
+    - plt.quiver(y,x,fy,fx)#x,y为位置坐标,fy,fx为矢量值
